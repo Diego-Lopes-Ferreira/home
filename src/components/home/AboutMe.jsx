@@ -42,7 +42,7 @@ const AboutMe = () => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 bg-dark text-light">
       <div className="container container-fluid p-5">
         <div className="row">
           {showInsta && (
@@ -60,7 +60,7 @@ const AboutMe = () => {
             {resumeURL && (
               <p className="lead text-center">
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-light btn-lg"
                   href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
